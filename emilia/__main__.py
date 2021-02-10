@@ -26,12 +26,12 @@ from emilia.modules.languages import set_language
 
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help.
-Don't forget follow my channel @GROUPSKEMER for news update.
+Don't forget join my group https://t.me/Temengoblok for news update.
 You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is **NISA**.
+Hey there! My name is **DAYANA**.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 """
@@ -150,10 +150,10 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/NLydW_Bot?startgroup=new")],
+                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/Dayana01_bot?startgroup=new")],
                 [InlineKeyboardButton(text="💭 Language", callback_data="main_setlang"), InlineKeyboardButton(text="⚙️ Connect Group", callback_data="main_connect")],
-                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/joinchat/RNFD7UXOd8uG0B_0MCEzeA"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/GROUPSKEMER")],
-                [InlineKeyboardButton(text="❓ Help", url="https://t.me/NLydW_Bot?start=help"), InlineKeyboardButton(text="💖 Donate", url="http://paypal.me/AIrvandi")]])
+                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Temengoblok"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/freindshipindo")],
+                [InlineKeyboardButton(text="❓ Help", url="https://t.me/Dayana01_bot?start=help"), InlineKeyboardButton(text="💖 Donate", url="http://paypal.me/AIrvandi")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
