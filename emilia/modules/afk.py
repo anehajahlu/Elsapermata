@@ -30,7 +30,7 @@ def afk(bot: Bot, update: Update):
         reason = ""
 
     sql.set_afk(update.effective_user.id, reason)
-    send_message(update.effective_message, tl(update.effective_message, "{} sekarang AFK!").format(update.effective_user.first_name))
+    send_message(update.effective_message, tl(update.effective_message, "{} Dia Sedang AFK!").format(update.effective_user.first_name))
 
 
 @run_async
@@ -42,7 +42,7 @@ def no_longer_afk(bot: Bot, update: Update):
 
     res = sql.rm_afk(user.id)
     if res:
-        send_message(update.effective_message, tl(update.effective_message, "{} sudah tidak AFK!").format(update.effective_user.first_name))
+        send_message(update.effective_message, tl(update.effective_message, "{} Sudah Tidak AFK!").format(update.effective_user.first_name))
 
 
 @run_async
