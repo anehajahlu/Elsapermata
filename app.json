@@ -1,6 +1,6 @@
 
 {
-    "name": "Dayana",
+    "name": "Elsa Permata Cantika",
     "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
     "keywords": [
       "telegram",
@@ -9,7 +9,7 @@
       "manager",
       "3"
     ],
-    "repository": "https://github.com/agung267/NISA",
+    "repository": "https://github.com/ronaldyganteng/Elsapermata",
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable env variables",
@@ -17,15 +17,15 @@
       },
       "TOKEN": {
         "description": "Your bot token, as a string.",
-        "value": "1664945431:AAEqEpkYftfGofcW81mw0YWaqAuHBf4SdnA"
+        "value": "1646842185:AAF0iwIFyoaxBDpH53SZY7_Wt7JnLy7W2GI"
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
-        "value": "1330133497"
+        "value": "1234372002"
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "AkuSiapaV2"
+        "value": "Afterdaytoxic"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -37,7 +37,7 @@
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-        "value": "-1001412355879"
+        "value": "-100525826738"
       },
       "YOUTUBE_API_KEY": {
         "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
@@ -84,7 +84,7 @@
       {
         "plan": "heroku-postgresql",
         "options": {
-          "version": "12"
+          "version": "13"
         }
       }
     ]
