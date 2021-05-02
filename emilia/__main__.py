@@ -25,9 +25,9 @@ from emilia.modules.connection import connect_button
 from emilia.modules.languages import set_language
 
 PM_START_TEXT = """
-Hi {}, my name is {}! If you have any questions on how to use me, read /help.
-Don't forget join my group https://t.me/joinchat/Vgi-MRNFL3DER7E- for news update.
-You can find the list of available commands with /help.
+Haii Guys 👋🏻🥰 {}, Nama Aku {}! , Aku bot ASSISTEN MANAGER GRUP TELEGRAM
+Apabila ingin menggunakan aku bisa lihat command nya /help, dan join grup ku
+https://t.me/humangabutguys dan tanyakan kepada ownerku kalau kurang jelas cara menggunakan aku!:))
 """
 
 HELP_STRINGS = """
